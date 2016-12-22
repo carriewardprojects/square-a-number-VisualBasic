@@ -1,0 +1,13 @@
+'A simple Visual Basic program that accepts an input value, calculates the value squared, and outputs the result.
+
+Sub main()
+
+  Dim num As Integer, square As Integer
+
+  num = Inputbox ("Enter an integer value: ")
+
+  square = num+num
+
+  Msgbox (Str(num) + " squared is " + Str(square))
+
+End Sub
